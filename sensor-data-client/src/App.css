@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #ff9900;
+  margin-bottom: 32px;
+  color: #fff;
+
+}
+
+.App-header-inside {
+  max-width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+    padding: 8px 62px;
+}
+
+.selectBox {
+    max-width: 960px;
+    width:40%;
+    margin: 16px auto 32px;
+}
+
+table {
+  border-collapse: collapse;
+  border: solid 2px orange; 
+  width: 80%;
+  margin: 32px auto;
+}
+table th,
+table td {
+  border: dashed 1px orange; 
+}
