@@ -52,4 +52,19 @@ remote:
 To https://github.com/nomura0102/awsiot-react-app.git
  * [new branch]      devops01 -> devops01
 branch 'devops01' set up to track 'origin/devops01'.
-PS C:\dev\awsiot-react-app> 
+
+PS C:\dev\awsiot-react-app> git commit -m "20221120 追加”
+[devops01 d123b9f] 20221120 追加
+ 1 file changed, 52 insertions(+), 6 deletions(-)
+PS C:\dev\awsiot-react-app> git push -u origin devops01
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.04 KiB | 266.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/nomura0102/awsiot-react-app.git
+   5268037..d123b9f  devops01 -> devops01
+branch 'devops01' set up to track 'origin/devops01'.
+
+PS C:\dev\awsiot-react-app>
