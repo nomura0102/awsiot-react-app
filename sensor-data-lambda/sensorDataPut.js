@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   let responseBody = "";
   let statusCode = 0;
 
-  //  絶対湿度の計算　=217*(6.1078*10^(7.5*t/(t+237.3)))/(t+273.15)*RH/100
+  //  絶対湿度の計算(t:温度,RH:相対湿度)　=217*(6.1078*10^(7.5*t/(t+237.3)))/(t+273.15)*RH/100
   const temperature = event.temperature;
   const humidity = event.humidity;
   const absHumi = (

@@ -56,6 +56,7 @@ branch 'devops01' set up to track 'origin/devops01'.
 PS C:\dev\awsiot-react-app> git commit -m "20221120 追加”
 [devops01 d123b9f] 20221120 追加
  1 file changed, 52 insertions(+), 6 deletions(-)
+
 PS C:\dev\awsiot-react-app> git push -u origin devops01
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
@@ -66,5 +67,15 @@ Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/nomura0102/awsiot-react-app.git
    5268037..d123b9f  devops01 -> devops01
 branch 'devops01' set up to track 'origin/devops01'.
+
+PS C:\dev\awsiot-react-app>git log
+commit c9aed537a69261432e93f946b7ee7b1f6480a075 (HEAD -> devops01)
+Author: nomura0102 <nomura0102@gmail.com>
+Date:   Sun Nov 20 22:05:58 2022 +0900
+
+    20221120 追加2
+
+commit d123b9f51fc9e914339f05b97590bab87171001c (origin/devops01)
+Author: nomura0102 <nomura0102@gmail.com>
 
 PS C:\dev\awsiot-react-app>
